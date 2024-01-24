@@ -2,7 +2,11 @@ import React,{useState} from "react";
 
 function TodoInput(props) {
     const [inputText,setInputText] = useState('');
-    
+    //  const handleAdd = (props)=>{
+  //     props.addList(inputText)
+  //       setInputText("");
+  //       return;
+  //   };
   return (
     <div className="input-container">
       <input
